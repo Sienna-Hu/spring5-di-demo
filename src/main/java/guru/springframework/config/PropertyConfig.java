@@ -32,6 +32,7 @@ public class PropertyConfig {
         return fakeDataSource;
     }
 
+    // Scan for property files and enable us to use the Value annotation
     @Bean
     public static PropertySourcesPlaceholderConfigurer properties(){
         PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer =new PropertySourcesPlaceholderConfigurer();
